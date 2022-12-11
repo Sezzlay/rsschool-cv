@@ -1,1 +1,180 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 150px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    background: #55257c;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: rgb(135, 100, 163);
+    margin: 0px;
+  }
+  
+  .nav-list {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+  }
 
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(3, 8, 37);
+  }
+
+  .main {
+    margin-bottom: auto;
+    background-size:cover;
+    background-image: url(./assets/photo_2022-12-10_19-48-26.jpg);
+    background-repeat: no-repeat;
+    }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+   .section-profile {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .profile-logo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 3px 3px rgb(54, 135, 228), -1em 0 .4em rgb(135, 100, 163);
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .section {
+    width: calc(60% - 400px);
+    background-image: url(./assets/photo_2022-12-10_21-42-55\ \(3\).jpg);
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    width: 420px;
+    height: 250px;
+    border: 3px solid rgb(62, 202, 207);
+  }
+
+  .section-profile-title {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .section-main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4c0b77;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+  }
+
+  .section-subtitle {
+    margin-top: 20px;
+    color: rgb(8, 28, 66);
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  
+  
+  .section-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #279fbd;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    text-align: center;
+    display:block ;
+  }
+
+  .section-item a {
+    text-decoration: none;
+    color: #e245c8;
+  }
+
+  .footer {
+    background-color: rgb(135, 100, 163);
+    padding: 43px;
+    margin-bottom: 0px;
+    }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+  }
+
+  .rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
