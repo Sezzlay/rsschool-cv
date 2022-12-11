@@ -178,3 +178,70 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+  .contacts-item:before {
+    content: "";
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    list-style: none;
+  }
+
+   .contacts-item:nth-child(1):before {
+  background-image: url(./assets/free-location-icon-2955-thumb.png);
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.section-list {
+  list-style: none;
+}
+
+.contacts-item:nth-child(2):before {
+  top: 105px;
+  left: 100px;
+  width: 21px;
+  height: 21px;
+  background-image: url(./assets/github.svg);
+}
+
+.contacts-item:nth-child(3):before {
+  top: 130px;
+  left: 96px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./assets/telegram-1-5645844-4695702.webp);
+}
+
+.contacts-item:nth-child(4):before {
+  top: 163px;
+  left: 100px;
+  width: 21px;
+  height: 21px;
+  background-image: url(./assets/discord-v2.svg);
+}
+
+.contacts-item:nth-child(5):before {
+  top: 195px;
+  left: 10px;
+  width: 21px;
+  height: 21px;
+  background-image: url(./assets/gmail-icon-svg-28.jpg);
+}
